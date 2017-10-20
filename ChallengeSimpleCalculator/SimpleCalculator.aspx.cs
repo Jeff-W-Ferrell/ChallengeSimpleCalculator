@@ -52,6 +52,8 @@ namespace ChallengeSimpleCalculator
             double result = firstValue / secondValue;
 
             resultLabel.Text = result.ToString();
+            //Curious as to where I would declare variables to have them available for each button.
+            //I played with creating Globals, but to no avail.  Plenty still learn about C#!
         }
     }
 }
